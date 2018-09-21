@@ -1,5 +1,6 @@
-//TRABALHO 1
-//Aluno : Lucas de Paula
+//TRABALHO 1 - Estrutura de dados
+//Aluno: Lucas de Paula
+//Linguagem: C++
 //Objetivo:
 //1 - Criar uma classe “Matriz” que encapsula a memória alocada dinamicamente para uma matriz mxn. 
 //2 - Fazer “overload” do operador “[]”!
