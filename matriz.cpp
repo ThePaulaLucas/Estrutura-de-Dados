@@ -51,17 +51,7 @@ class Matriz
             {
                 delete mat[i];
             }
-            
             delete[] mat;
-            
-            for (i = 0; i < m; i++)
-            {
-                for (j =0; j < n; j++)
-                {
-                    cout << mat[i][j] << " ";
-                }
-                cout << endl;
-            }
         };
         
     private:
@@ -76,7 +66,7 @@ int main()
     
     cout << "Entre com o número de linhas: " << endl;
     cin  >> l;
-    cout << "Entre com o numero de colunas: " << endl;
+    cout << "Entre com o número de colunas: " << endl;
     cin >> c;
     
     Matriz matrix(l, c);
