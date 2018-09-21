@@ -1,3 +1,9 @@
+//TRABALHO 1
+//Aluno : Lucas de Paula
+//Objetivo:
+//1 - Criar uma classe “Matriz” que encapsula a memória alocada dinamicamente para uma matriz mxn. 
+//2 - Fazer “overload” do operador “[]”!
+
 #include <iostream>
 
 using namespace std;
