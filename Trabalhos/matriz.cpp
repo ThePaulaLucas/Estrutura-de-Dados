@@ -23,31 +23,44 @@ class Matriz
             n = c;
         };
         
-        //Construtor cópia para declaração do tipo "obj1(obj2);",
-        //aloca a mesma qtd de linhas e colunas do obj parâmetro
         Matriz(const Matriz& x)
         {
             this -> m = x.m;
             this -> n = x.n;
+            
             mat = new int* [m];
             for (i=0; i < m; i++)
             {
                 mat[i] = new int [n];
             }
+            
+            for(i = 0; i < m; i++)
+                    for(j = 0; j < n; j++)
+                        mat[i][j] = x.mat[i][j];
+            
         };
         
-        //Overload copia os elementos do obj1 p/ obj2
         Matriz& operator = (const Matriz& x)
         {
             if (this != &x)
             {
-                for (i = 0; i < m; i++)
+                this -> m = x.m;
+                this -> n = x.n;
+                
+                mat = new int* [m];
+                for (i=0; i < m; i++)
+                {
+                    mat[i] = new int [n];
+                }
+                
+                for(i = 0; i < m; i++)
                     for(j = 0; j < n; j++)
                         mat[i][j] = x.mat[i][j];
             }
             return *this;
         };
         
+        //Overload
         int *operator [] (int valor)
         {
                return mat[valor];
@@ -119,16 +132,13 @@ int main()
     cout << "Entre com o número de colunas: " << endl;
     cin >> c;
     
-    //matrix2 recebe a mesma qtd de parametros que matrix1
-    //matrix3 é declarada com a qtd padrão definida no construtor
-    Matriz matrix1(l, c), matrix2(matrix1), matrix3;
+    Matriz matrix1(l, c), matrix2(matrix1), matrix3(80, 80);
     
     //Atribui valores para os elementos da matriz
     matrix1.valorMatrix1();
     matrix2.valorMatrix2();
     matrix3.valorMatrix2();
     
-    //matrix3 recebe os mesmos valores que matrix1
     matrix3 = matrix1;
     
     cout << endl << "  Matriz 1: " << endl;
@@ -145,4 +155,5 @@ int main()
 
     return 0;
 }
+
 
