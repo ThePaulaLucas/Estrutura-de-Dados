@@ -60,13 +60,11 @@ class Matriz
             return *this;
         };
         
-        //Overload
         int *operator [] (int valor)
         {
                return mat[valor];
         };
         
-        //Destrutor
         ~Matriz()
         {
             for (i = 0; i < n; i++)
