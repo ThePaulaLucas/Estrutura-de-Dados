@@ -47,9 +47,12 @@ Temos que `p` é do tipo `int*`, um ponteiro que aponta para uma inteiro, e `q` 
     }
 e queremos implementar a soma:
 
+
 $$
 \sum_{i =n}^{m}  f(i)
 $$
+
+
 Fazemos:
 
     double sum(double (*f)(double), int n int m)
