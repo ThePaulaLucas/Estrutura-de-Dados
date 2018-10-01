@@ -11,7 +11,7 @@ Um ponteiro também pode ser usado para apontar para uma estrutura de dados como
 
     int x[10];
 
-nessa declaração temos que `x` é um ponteiro que aponta para um bloco que memória que guarda 10 inteiros, como esse bloco é do tipo `int`, e supondo que o primeiro endereço seja `#1015`, temos :
+Nessa declaração temos que `x` é um ponteiro que aponta para um bloco que memória que guarda 10 inteiros, como esse bloco é do tipo `int`, e supondo que o primeiro endereço seja `#1015`, temos :
 
 |Bloco|Endereço|   
 |--|--|
@@ -20,12 +20,12 @@ nessa declaração temos que `x` é um ponteiro que aponta para um bloco que mem
 |3|#1019|
 |...|...|
 
-Isso ocorre porque o inteiro ocupa `2 bytes` de memória, se nossa `array` fosse uma `array de char`, nosso endereço ia andar de 1 em 1, pois um `char` ocupa apenas `1 byte` de memória. Dado um ponteiro que aponta para um bloco de memória, seu endereço é dado por:
+Isso ocorre porque o inteiro ocupa `2 bytes` de memória, se nosso `array` fosse um `array de char`, nosso endereço ia andar de 1 em 1, pois um `char` ocupa apenas `1 byte` de memória. Dado um ponteiro que aponta para um bloco de memória, seu endereço é dado por:
 
     c + (i * sizeof(type))
 
  - `c` é a variável
- - `i` é a distancia do primeiro espaço de memória
+ - `i` é a distância do primeiro espaço de memória
  - `sizeof(type)` é o tamanho do tipo
 
 ### Variável de referência
@@ -39,7 +39,7 @@ Temos que `p` é do tipo `int*`, um ponteiro que aponta para uma inteiro, e `q` 
       int *const q = &x;
 
  ### Funções
- Da mesma forma que  variáveis possuem seu endereço de memória, funções também possuem seu endereço de memória que indica a localização do seu conteúdo, podemos usar ponteiros para função oque é útil para passar uma função como parâmetro para outra. Por exemplo:
+ Da mesma forma que  variáveis possuem seu endereço de memória, funções também possuem seu endereço de memória que indica a localização do seu conteúdo, podemos usar ponteiros para função, o que é útil para passar uma função como parâmetro para outra. Por exemplo:
 
     double f(double x)
     {
