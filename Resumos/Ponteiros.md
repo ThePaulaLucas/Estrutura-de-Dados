@@ -12,12 +12,14 @@ Um ponteiro também pode ser usado para apontar para uma estrutura de dados como
     int x[10];
 
 nessa declaração temos que `x` é um ponteiro que aponta para um bloco que memória que guarda 10 inteiros, como esse bloco é do tipo `int`, e supondo que o primeiro endereço seja `#1015`, temos :
-| Bloco | Endereço |   
+
+|Bloco|Endereço|   
 |--|--|
 |1|#1015|
 |2|#1017|
 |3|#1019|
 |...|...|
+
 Isso ocorre porque o inteiro ocupa `2 bytes` de memória, se nossa `array` fosse uma `array de char`, nosso endereço ia andar de 1 em 1, pois um `char` ocupa apenas `1 byte` de memória. Dado um ponteiro que aponta para um bloco de memória, seu endereço é dado por:
 
     c + (i * sizeof(type))
