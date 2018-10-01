@@ -36,7 +36,7 @@ double calculoArea(double (*f)(double, vector<double>), vector<double> coef, dou
 short retangulos()
 {
     short ret;
-    cout << "Entre com a qtd de retangulos(1 - 10000): " << endl;
+    cout << "Entre com a qtd de retângulos(1 - 10000): " << endl;
     cin >> ret;
     return ret;
 }
