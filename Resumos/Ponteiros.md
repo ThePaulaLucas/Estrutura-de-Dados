@@ -47,8 +47,7 @@ Temos que `p` é do tipo `int*`, um ponteiro que aponta para uma inteiro, e `q` 
     }
 e queremos implementar a soma:
 
-<p>&#x2211;f(i)</p>
-
+![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%3Dn%7D%5E%7Bm%7Df%28i%29)
 
 Fazemos:
 
