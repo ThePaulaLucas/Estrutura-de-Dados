@@ -47,10 +47,7 @@ Temos que `p` é do tipo `int*`, um ponteiro que aponta para uma inteiro, e `q` 
     }
 e queremos implementar a soma:
 
-
-$$
-\sum_{i =n}^{m}  f(i)
-$$
+<p>&#x2211;f(i)</p>
 
 
 Fazemos:
