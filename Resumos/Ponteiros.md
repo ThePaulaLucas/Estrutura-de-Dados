@@ -11,7 +11,7 @@ Um ponteiro também pode ser usado para apontar para uma estrutura de dados como
 
     int x[10];
 
-Nessa declaração temos que `x` é um ponteiro que aponta para um bloco que memória que guarda 10 inteiros, como esse bloco é do tipo `int`, e supondo que o primeiro endereço seja `#1015`, temos :
+Nessa declaração temos que `x` é um ponteiro que aponta para um bloco que memória que guarda 10 inteiros, como esse bloco é do tipo `int`, e supondo que o primeiro endereço seja `#1015`, temos:
 
 |Bloco|Endereço|   
 |--|--|
