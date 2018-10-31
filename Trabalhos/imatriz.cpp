@@ -33,13 +33,13 @@ int Matriz::getColuna() const
     return c;
 }
 
-//Retorna o elemento da posição i,j da matriz
+//Retorna o elemento da posiÃ§Ã£o i,j da matriz
 int Matriz::get(int i, int j) const
 {
     return mat[i][j];
 }
 
-//Construtor por cópia
+//Construtor por cÃ³pia
 Matriz::Matriz(const Matriz& x)
 {
     this -> l = x.getLinha();
@@ -94,23 +94,23 @@ Matriz::~Matriz()
     delete[] mat;
 }
 
-//Atribui o valor i + j à matriz
+//Atribui o valor i + j Ã  matriz
 void valorMatrizSoma(Matriz& matrix)
 {
-    int i, j, l, c;
+    int l, c;
     l = matrix.getLinha();
     c = matrix.getColuna();
 
-    for (i = 0; i < l; ++i)
+    for (unsigned i = 0; i < l; ++i)
     {
-        for (j = 0; j < c; ++j)
+        for (unsigned j = 0; j < c; ++j)
         {
             matrix[i][j] = i + j;
         }
     }
 }
 
-//Atribui o valor i * j à matriz
+//Atribui o valor i * j Ã  matriz
 void valorMatrizMult(Matriz& matrix)
 {
     int l, c;
