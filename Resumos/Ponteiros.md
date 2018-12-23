@@ -9,8 +9,9 @@ Ponteiros são variáveis auxiliares que guardam um endereço de memória, isso 
 ```
 
 Um ponteiro também pode ser usado para apontar para uma estrutura de dados como uma `array` , por exemplo:
-
+ ```c
     int x[10];
+ ```
 
 Nessa declaração temos que `x` é um ponteiro que aponta para um bloco que memória que guarda 10 inteiros, como esse bloco é do tipo `int`, e supondo que o primeiro endereço seja `#1015`, temos:
 
