@@ -65,7 +65,11 @@ Fazemos:
 	    return result;
     }
 ````
-Onde `double (*f)(double)` significa que f é um ponteiro para função que recebe e retorna um double.
+Onde
+```C 
+double (*f)(double) 
+``` 
+significa que f é um ponteiro para função que recebe e retorna um double.
 
 
 #### Bibliografia
