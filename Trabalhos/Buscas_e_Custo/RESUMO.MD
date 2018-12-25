@@ -46,3 +46,10 @@ As classificações das funções em ordem de tempo de execução na notação  
 Como mostra no gráfico abaixo:
 
 <a href="http://pt-br.tinypic.com?ref=11adem0" target="_blank"><img src="http://i63.tinypic.com/11adem0.png" border="0" alt="Image and video hosting by TinyPic"></a>
+
+Alguns algorítmos de busca possuem diferentes custos computacionais, por exemplo
+
+ - **Busca Linear** : O(n)
+- **Busca Binária**: O(log(n))
+
+como visto no gráfico acima, notamos que a busca binária possui uma maior otimização em relação a busca linear.
