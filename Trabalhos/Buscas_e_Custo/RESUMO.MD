@@ -39,7 +39,7 @@ A notação **Big-O** é usada para classificar a *pior situação* de uma funç
 
 As classificações das funções em ordem de tempo de execução na notação  **Big-O** são:
 
-|Constante|Logarítmica|Linear|n log n|Quadrática|Cubica|Expoencial
+|Constante|Logarítmica|Linear|n log n|Quadrática|Cúbica|Exponencial
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(a)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(a)$$" title="$$O(a)$$" /></a>|<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(log(n))$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(log(n))$$" title="$$O(log(n))$$" /></a>|<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(n)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(n)$$" title="$$O(n)$$" /></a>|<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(nlog(n))$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(nlog(n))$$" title="$$O(nlog(n))$$" /></a>|<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(n^2)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(n^2)$$" title="$$O(n^2)$$" /></a>|<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(n^3)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(n^3)$$" title="$$O(n^3)$$" /></a>|<a href="https://www.codecogs.com/eqnedit.php?latex=$$O(a^n)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(a^n)$$" title="$$O(a^n)$$" /></a>
 
