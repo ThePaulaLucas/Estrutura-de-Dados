@@ -45,8 +45,9 @@ As classificações das funções em ordem de tempo de execução na notação  
 
 Como mostra no gráfico abaixo:
 
-<a href="http://pt-br.tinypic.com?ref=11adem0" target="_blank"><img src="http://i63.tinypic.com/11adem0.png" border="0" alt="Image and video hosting by TinyPic"></a>
+![Gráfico custos](https://i.postimg.cc/TYh9rCFx/plot.png)
 
+Onde n é o tamanho da estrutura e t o tempo de execução.
 Alguns algorítmos de busca possuem diferentes custos computacionais, por exemplo
 
  - **Busca Linear** : O(n)
