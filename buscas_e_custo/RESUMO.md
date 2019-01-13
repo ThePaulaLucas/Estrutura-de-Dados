@@ -98,7 +98,7 @@ Para cada tipo de estrutura de dados possuímos um custo diferente, em nossa an�
 
 Ao analisarmos os custos relacionados à algoritmos, fica claro a importância dessa classificação, pois, a medida que nossos dados e também a complexidade, cresce, precisamos de ferramentas mais otimizadas para lidar com problemas cada vez maiores.
 
-Contudo nossa discussão consistiu em apenas problemas de tempo polinomial(**P**) , e não houve um debate sobre essa classificação, que fica a cargo da **complexidade computacional** em classificar esse problema, que são subdivididos em P = Polinomial time, NP = Non Polinomial time  e NP-Complete, esta é uma classificação básica.
+Contudo nossa discussão consistiu em apenas problemas de tempo polinomial(**P**) , e não houve um debate sobre essa classificação, que fica a cargo da **complexidade computacional** em classificar esse problema, que são subdivididos em P = Polinomial time, NP = Non Polinomial time  e NP-Complete, que são classificações básicas.
 
 ### Referências
 
