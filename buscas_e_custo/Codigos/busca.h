@@ -16,7 +16,7 @@ class Vector
             destroiVetor();
         }
         
-        int aleatorio(int);
+       int aleatorio(int);
        void destroiVetor();
        int getValor(int);
        void atribuiValorAleatorio(int);
