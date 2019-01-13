@@ -12,7 +12,7 @@ Para validar um custo de um certo algoritmo não podemos usar uma medida de temp
  - Tamanho dos dados
  - etc
  
- Com isso precisamos de uma unidade lógica para expressar a relação entre o tamanho **n** de um dado ou de uma estrutura e o tempo **t** para ser processado este dado. Onde se houver uma relação linear entre meu dado **n** e o meu tempo **t**, então se meu dado cresce em 5, meu tempo também crescerá em 5
+ Com isso precisamos de uma unidade lógica para expressar a relação entre o tamanho **n** de um dado ou de uma estrutura e o tempo **t** para ser processado este dado. Onde se houver uma relação linear entre o **n** e o tempo **t**, então se o dado cresce em 5, o tempo também crescerá em 5.
 
 
  Analisando a tabela
@@ -35,7 +35,7 @@ A função:
  é
  <a href="https://www.codecogs.com/eqnedit.php?latex=$$O(n^k)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$O(n^k)$$" title="$$O(n^k)$$" /></a>
 
-A notação **Big-O** é usada para classificar a *pior situação* de uma função, porém há uma outra notação simétrica para classificar a *melhor situação*, essa é chamada de notação **Big-Ω**
+A notação **Big-O** é usada para classificar a *pior situação* de uma função, porém há uma outra notação simétrica para classificar a *melhor situação*, essa é chamada de notação **Big-Ω**.
 
 As classificações das funções em ordem de tempo de execução na notação  **Big-O** são:
 
@@ -48,7 +48,7 @@ Como mostra no gráfico abaixo:
 ![Gráfico custos](https://i.postimg.cc/TYh9rCFx/plot.png)
 
 Onde n é o tamanho da estrutura e t o tempo de execução.
-Alguns algorítmos de busca possuem diferentes custos computacionais, por exemplo
+Alguns algorítmos de busca possuem diferentes custos computacionais, por exemplo:
 
  - **Busca Linear** : O(n)
 - **Busca Binária**: O(log(n))
